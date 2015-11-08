@@ -22,3 +22,111 @@
 		    font-weight: normal;
 		    font-style: normal;
 		}
+
+
+
+
+
+/*Icon Hovers*/
+
+.view {
+    width: 240px;
+    height: 369px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    margin: 15px;
+    background: #fff  no-repeat center center;
+}
+.view .mask, .view .content {
+    width: 240px;
+    height: 369px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view img {
+    display: block;
+    position: relative
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 5px;
+    /*background: rgba(0, 0, 0, 0.8);*/
+    margin: 60px auto;
+}
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    width: 230px;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding:10px;
+    text-align: center
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    margin-top: 30px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000
+}
+
+.view-first img { 
+    transition: all 0.2s linear;
+    /*-moz-transition:-moz-transform 0.2s ease-in; 
+	-webkit-transition:-webkit-transform 0.2s ease-in; 
+	-o-transition:-o-transform 0.2s ease-in;*/
+}
+.view-first .mask {
+    opacity: 0;
+    background-color: rgba(0, 153, 51, 0.7); 
+    transition: all 0.4s ease-in-out;
+}
+.view-first h2 {
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+.view-first p { 
+    transform: translateY(100px);
+    opacity: 0;
+	transition: all 0.2s linear;
+}
+.view-first a.info{
+    opacity: 0;
+	transition: all 0.2s ease-in-out;
+}
+
+.view-first:hover img { 
+	transform: scale(1.1);
+} 
+.view-first:hover .mask { 
+	opacity: 1;
+}
+.view-first:hover h2,
+.view-first:hover p,
+.view-first:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+.view-first:hover p {
+    transition-delay: 0.1s;
+}
+.view-first:hover a.info {
+    transition-delay: 0.2s;
+}
