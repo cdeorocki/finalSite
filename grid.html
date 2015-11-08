@@ -9,26 +9,42 @@
 
 	<style type="text/css">
 		/*Start Forage Selector*/
-
+		
 		#item {
-			height: 50vh;
-			border: 1px solid black; 
+			height:369px;
+			width:240px;
+			margin: 5px;
+			/*border: blue 2px solid;*/
+		}
+
+		.row {
+			/*border: orange 2px solid;*/
+			width:1004px;
+			margin: 0 auto;
 		}
 
 		.mul {
-			background-image: url("img/mulberry.jpg")
+			background-image: url("img/mulberry2.jpg")
 		}
 
 		.frass {
-			background-image: url("img/sassafras.jpg")
+			background-image: url("img/sassafras2.jpg")
 		}
 
-		.wildCar {
-			background-image: url("img/wildCarrot.jpg")
+		.carr {
+			background-image: url("img/wildCarrot2.jpg")
 		}
 
 		.tails {
-			background-image: url("img/CatTails.jpg")
+			background-image: url("img/catTails2.jpg")
+		}
+
+		.moreInfo {
+			width: 1080px;
+			height:250px;
+			margin: 5px auto;
+			border: 1px purple solid;
+			/*display:none;*/
 		}
 
 		
@@ -37,12 +53,36 @@
 <body>
 	<div class="row">
 		<div class="col-md-3 mul" id="item"></div>
-		<!-- <div class="col-md-3 frass" id="item"></div>
-		<div class="col-md-3 wildCar" id="item"></div>
-		<div class="col-md-3 tails" id="item"></div> -->
+		<div class="col-md-3 frass" id="item"></div>
+		<div class="col-md-3 carr" id="item"></div>
+		<div class="col-md-3 tails" id="item"></div>
 	</div>
-
-<div id="console"></div>
+	<div class="moreInfo">
+		<div id="landingBar">
+			<h1>Cooking with Foraged Edibles</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequuntur hic mollitia aperiam ad natus ex voluptate sed cum ipsam, excepturi error fuga ipsa blanditiis sapiente harum illum rem, dolorum.</p>
+		</div>
+	</div>	
+	<div class="moreInfo">
+		<h1>Mulberries</h1>
+		<div class="col-md-6 mulinfo" id="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem natus officiis dolorum soluta commodi obcaecati quam perspiciatis enim debitis fugiat autem, recusandae ab non itaque unde, deleniti, repellat eos consectetur?</div>
+		<div class="col-md-6 mulrec" id="recipe">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, eaque tempora tenetur quis a dolorem earum fuga veniam id totam vel ex sed deleniti nam ipsum eos, cupiditate cum nulla.</div>
+	</div>
+	<div class="moreInfo">
+		<h1>Sassafras</h1>
+		<div class="col-md-6 frassinfo" id="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque natus, vitae esse, voluptatibus assumenda animi adipisci blanditiis veritatis eius ut? Doloribus qui officia neque dolore quasi eveniet molestiae, voluptas.</div>
+		<div class="col-md-6 frassrec" id="recipe">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ipsam, odio expedita facere velit iste dignissimos animi enim non numquam et itaque deleniti pariatur iure quo esse nostrum. Mollitia, nulla?</div>	
+	</div>
+	<div class="moreInfo">
+		<h1>Wild Carrots</h1>
+		<div class="col-md-6 carrinfo" id="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias vitae debitis qui? Perspiciatis maxime odit sequi eveniet omnis explicabo velit, blanditiis. Ipsam dicta quaerat blanditiis, corporis velit, asperiores adipisci assumenda.</div>
+		<div class="col-md-6 carrrec" id="recipe">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quasi officia accusamus rem consequuntur beatae vel velit earum alias temporibus, ipsam id facere suscipit, accusantium recusandae. Tenetur neque doloribus vero.</div>	
+	</div>
+	<div class="moreInfo">
+		<h1>Cattails</h1>
+		<div class="col-md-6 tailsinfo" id="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quae quia omnis consectetur qui est, tenetur molestiae, id ad suscipit placeat dolore aut rerum aspernatur et iusto, deserunt sunt. Voluptatibus!</div>
+		<div class="col-md-6 tailsrec" id="recipe">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum dolor quo rerum aperiam vitae dicta ipsam esse molestiae sunt, assumenda corporis sint fugit, quia ipsa architecto quisquam, eum amet officiis.</div>	
+	</div>
 
 
 
