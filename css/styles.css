@@ -40,7 +40,8 @@
     margin: 15px;
     background: #fff  no-repeat center center;
 }
-.view .mask, .view .content {
+
+.view .mask1, .view .content {
     width: 240px;
     height: 369px;
     position: absolute;
@@ -48,20 +49,51 @@
     top: 0;
     left: 0
 }
+
+.view .mask2, .view .content {
+    width: 240px;
+    height: 369px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+
+.view .mask3, .view .content {
+    width: 240px;
+    height: 369px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+
+.view .mask4, .view .content {
+    width: 240px;
+    height: 369px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+
 .view img {
     display: block;
     position: relative
 }
+
 .view h2 {
     text-transform: uppercase;
     color: #fff;
     text-align: center;
     position: relative;
-    font-size: 17px;
+    font-size: 20px;
+    font-family: 'geotica_threeregular', serif;
     padding: 5px;
     /*background: rgba(0, 0, 0, 0.8);*/
     margin: 60px auto;
 }
+
 .view p {
     font-family: Georgia, serif;
     font-style: italic;
@@ -72,6 +104,7 @@
     padding:10px;
     text-align: center
 }
+
 .view a.info {
     display: inline-block;
     text-decoration: none;
@@ -82,6 +115,7 @@
     text-transform: uppercase;
     box-shadow: 0 0 1px #000
 }
+
 .view a.info:hover {
     box-shadow: 0 0 5px #000
 }
@@ -92,21 +126,43 @@
 	-webkit-transition:-webkit-transform 0.2s ease-in; 
 	-o-transition:-o-transform 0.2s ease-in;*/
 }
-.view-first .mask {
+
+.view-first .mask1 {
     opacity: 0;
     background-color: rgba(0, 153, 51, 0.7); 
     transition: all 0.4s ease-in-out;
 }
+
+.view-first .mask2 {
+    opacity: 0;
+    background-color: rgba(0, 153, 51, 0.7); 
+    transition: all 0.4s ease-in-out;
+}
+
+.view-first .mask3 {
+    opacity: 0;
+    background-color: rgba(0, 153, 51, 0.7); 
+    transition: all 0.4s ease-in-out;
+}
+
+.view-first .mask4 {
+    opacity: 0;
+    background-color: rgba(0, 153, 51, 0.7); 
+    transition: all 0.4s ease-in-out;
+}
+
 .view-first h2 {
     transform: translateY(-100px);
     opacity: 0;
     transition: all 0.2s ease-in-out;
 }
+
 .view-first p { 
     transform: translateY(100px);
     opacity: 0;
 	transition: all 0.2s linear;
 }
+
 .view-first a.info{
     opacity: 0;
 	transition: all 0.2s ease-in-out;
@@ -115,18 +171,34 @@
 .view-first:hover img { 
 	transform: scale(1.1);
 } 
-.view-first:hover .mask { 
+
+.view-first:hover .mask1 { 
 	opacity: 1;
 }
+
+.view-first:hover .mask2 { 
+    opacity: 1;
+}
+
+.view-first:hover .mask3 { 
+    opacity: 1;
+}
+
+.view-first:hover .mask4 { 
+    opacity: 1;
+}
+
 .view-first:hover h2,
 .view-first:hover p,
 .view-first:hover a.info {
     opacity: 1;
     transform: translateY(0px);
 }
+
 .view-first:hover p {
     transition-delay: 0.1s;
 }
+
 .view-first:hover a.info {
     transition-delay: 0.2s;
 }
