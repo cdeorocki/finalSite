@@ -35,6 +35,11 @@
 		    font-style: normal;
 		}
 
+.row {
+    /*border: orange 2px solid;*/
+    width:1080px;
+    margin: 0 auto;
+}
 
 
 
@@ -130,8 +135,8 @@
     background: #fff;
     color: #000;
     text-transform: uppercase;
-    box-shadow: 0 0 1px #000
-    font-family: 'museo_slab500';
+    box-shadow: 0 0 1px #000;
+    font-family: 'museo_slab500', serif;
 }
 
 .view a.info:hover {
@@ -147,25 +152,25 @@
 
 .view-first .mask1 {
     opacity: 0;
-    background-color: rgba(0, 153, 51, 0.7); 
+    background-color: rgba(79,27,38, 0.85); 
     transition: all 0.4s ease-in-out;
 }
 
 .view-first .mask2 {
     opacity: 0;
-    background-color: rgba(0, 153, 51, 0.7); 
+    background-color: rgba(121, 98, 70, 0.85); 
     transition: all 0.4s ease-in-out;
 }
 
 .view-first .mask3 {
     opacity: 0;
-    background-color: rgba(0, 153, 51, 0.7); 
+    background-color: rgba(154, 126, 149, 0.85); 
     transition: all 0.4s ease-in-out;
 }
 
 .view-first .mask4 {
     opacity: 0;
-    background-color: rgba(0, 153, 51, 0.7); 
+    background-color: rgba(102, 66, 61, 0.85); 
     transition: all 0.4s ease-in-out;
 }
 
@@ -219,4 +224,24 @@
 
 .view-first:hover a.info {
     transition-delay: 0.2s;
+}
+
+/*Content Box Styling*/
+
+.moreInfo {
+            width: 1080px;
+            height: 330px;
+            margin: 5px auto;
+            border: 1px purple solid;
+            padding:10px;
+            /*display:none;*/
+        }
+
+.moreInfo h1 {
+    font-family: 'geotica_threeregular', serif;
+    margin-left: 25px;
+}
+
+.moreInfo p {
+    font-family: 'museo_slab500', serif;
 }
