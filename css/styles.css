@@ -36,12 +36,17 @@
 		}
 
 .row {
-    /*border: orange 2px solid;*/
     width:1080px;
     margin: 0 auto;
 }
 
-
+.glyphicon-home {
+    height:20px;
+    float:left;
+    margin-top:20px;
+    margin-left: 20px;
+    color: #796246;
+}
 
 
 /*Icon Hovers*/
@@ -96,7 +101,7 @@
 
 .view img {
     display: block;
-    position: relative
+    position: relative;
 }
 
 .view h2 {
@@ -129,18 +134,18 @@
 .view a.info {
     display: inline-block;
     text-decoration: none;
-    border-radius: 10px;
     padding: 4px 14px;
     margin-top: 30px;
     background: #fff;
     color: #000;
+    border-radius: 10px;
     text-transform: uppercase;
     box-shadow: 0 0 1px #000;
     font-family: 'museo_slab500', serif;
 }
 
 .view a.info:hover {
-    box-shadow: 0 0 5px #000
+    box-shadow: 0 0 5px #000;
 }
 
 .view-first img { 
@@ -216,6 +221,7 @@
 .view-first:hover a.info {
     opacity: 1;
     transform: translateY(0px);
+    
 }
 
 .view-first:hover p {
@@ -232,16 +238,22 @@
             width: 1080px;
             height: 330px;
             margin: 5px auto;
-            border: 1px purple solid;
-            padding:10px;
+            /*border: 1px purple solid;*/
+            background-color: #FAD8D9;
+            border-radius: 10px;
+            padding:15px;
             /*display:none;*/
         }
 
 .moreInfo h1 {
     font-family: 'geotica_threeregular', serif;
     margin-left: 25px;
+    color: #66423D;
 }
 
 .moreInfo p {
     font-family: 'museo_slab500', serif;
+    color: #796246;
 }
+
+
